@@ -59,3 +59,7 @@ function calculateTotal() {
   const grandTotal = totalPrice + taxAmount;
   total.innerText = "$ " + grandTotal;
 }
+
+checkOutButton?.addEventListener("click", function () {
+  alert("Add to cart successfully");
+});
