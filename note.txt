@@ -1,0 +1,19 @@
+// function changeProductQuantity(
+//   isIncrease,
+//   quantityInput,
+//   priceElement,
+//   pricePerUnit
+// ) {
+//   let quantity = parseInt(quantityInput?.value) || 0;
+//   quantity = isIncrease ? quantity + 1 : Math.max(quantity - 1, 0);
+//   quantityInput.value = quantity;
+//   priceElement.innerText = quantity * pricePerUnit;
+// }
+
+// // For product 1
+// changeProductQuantity(true, quantityInput1, price1, 50);
+// changeProductQuantity(false, quantityInput1, price1, 50);
+
+// // For product 2
+// changeProductQuantity(true, quantityInput2, price2, 15);
+// changeProductQuantity(false, quantityInput2, price2, 15);
